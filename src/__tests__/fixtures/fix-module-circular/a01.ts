@@ -1,5 +1,5 @@
-import { Injectable } from '../../../src/decorators/injectable.js'
-import { FB01 } from './b01.js'
+import {Injectable} from '../../../decorators/injectable.js';
+import {FB01} from './b01.js';
 
 @Injectable()
 export class FA01 {
@@ -7,6 +7,4 @@ export class FA01 {
 }
 
 @Injectable()
-export class FA02 {
-
-}
+export class FA02 {}

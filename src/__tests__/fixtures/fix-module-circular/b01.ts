@@ -1,7 +1,7 @@
-import { FA02 } from './a01.js';
-import { ref } from '../../../src/ref.js'
-import { Injectable } from '../../../src/decorators/injectable.js'
-import { Inject } from '../../../src/decorators/inject.js'
+import {FA02} from './a01.js';
+import {ref} from '../../../ref.js';
+import {Injectable} from '../../../decorators/injectable.js';
+import {Inject} from '../../../decorators/inject.js';
 
 @Injectable()
 export class FB01 {

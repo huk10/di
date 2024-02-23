@@ -1,5 +1,5 @@
-import { A02 } from './a1.js';
-import { Injectable } from '../../../src/decorators/injectable.js'
+import {A02} from './a1.js';
+import {Injectable} from '../../../decorators/injectable.js';
 
 // es 模块循环依赖
 
