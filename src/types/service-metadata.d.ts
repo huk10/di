@@ -1,11 +1,10 @@
-import { Constructor } from './constructor.js'
-import { ServiceProvider } from '../provider.js'
+import {Lifecycle} from '../lifecycle.js';
+import {Constructor} from './constructor.js';
+import {ServiceIdentifier} from './identifier.js';
 
 export interface ServiceMetadata<T = unknown> {
-  instance?: T
-  singleton: boolean
-  type: Constructor<T>
-  isDisposable?: boolean
-  params: Record<number, ServiceProvider<T>> | null
-  property: Record<string, ServiceProvider<T>> | null
+  scope: Lifecycle;
+  type: Constructor<T>;
+  params: ServiceIdentifier<unknown>[];
+  property: Record<string, ServiceIdentifier<unknown>> | null;
 }
