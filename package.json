@@ -1,6 +1,6 @@
 {
   "name": "di",
-  "version": "0.0.1",
+  "version": "1.0.0-beta",
   "type": "module",
   "description": "a JavaScript dependency injection library",
   "main": "./dist/cjs/index.js",
